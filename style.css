@@ -1,0 +1,263 @@
+body{
+  background-image: url(back4.jpg);
+  background-position: center;
+  background-attachment: fixed;
+
+}
+.TopDiv{
+    background-image: url(back2_1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.navbar-custom {
+    background-color: rgba(17, 17, 17, 0.356);
+}
+.main-logo{
+    height: 250px ;
+    width: 250px ;
+    border-radius: 50%;
+    box-shadow:
+    inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #f0f,   /* inner left magenta short */
+    inset -20px 0 80px #0ff,  /* inner right cyan short */
+    inset 10px 0 80px #f0f,  /* inner left magenta broad */
+     /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;
+}
+.main-logo-div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10%; 
+}
+.main-heading{
+    font-family: 'Black Ops One', cursive;
+    color: rgb(163, 162, 162);
+}
+.main-heading-div{
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+.icons{
+   position: relative;
+   top: 20%;
+   text-align: center;
+}
+i{
+    color: white;
+    font-size: 25px;
+}
+.what{
+    /* background-image: url("back4.jpg"); */
+    margin-bottom: 20vh;
+    background-attachment: fixed;
+    
+}
+.what_heading{
+    font-family: 'Black Ops One', cursive;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 20vh;
+    margin-bottom: 30vh;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    
+    padding: 10px;
+    flex: 33;
+  }
+  .flex-item-mid {
+    
+    padding: 10px;
+    flex: 33%;
+  }
+  
+  .flex-item-right {
+    
+    padding: 10px;
+    flex: 33%;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+
+  .what_img{
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+  }
+  .flex-container2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left2{
+    padding: 10px;
+    flex: 50%;
+  }
+  .flex-item-right2{
+    padding: 10px;
+    flex: 50%;
+  }
+  .what_img2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+      position: relative;
+      left: 90px;
+  }
+  .what_img3{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    right: 60px; 
+  }
+ 
+  /* .achievement{
+    margin-top: 10vh;
+    /* background-image: url("back3.jpg"); */
+    /* background-attachment: fixed; */
+    /* height: 120vh; */
+  /* }
+  .achievement_heading_div{
+    margin-top: 20vh;
+    font-family: 'Black Ops One', cursive;
+    color: white;
+    text-align: center;
+  }
+.achievement_head{
+  position: relative;
+  top: 20px;
+}
+.achievement_image{
+  margin-left: 10%;
+  margin-right: 10%;  
+} */ */
+.events{
+  
+  height: 80vh;
+  background-attachment: fixed;
+}
+.events_heading{
+  color: orange;
+  font-family: 'Black Ops One', cursive;
+
+}
+.events_heading_div{
+  position: relative;
+  top: 5%;
+  text-align: center;
+}
+.currentEvent{
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid white;
+  width: 50%;
+  height: 10%;
+  position: relative;
+  top: 8%;
+  left: 23%;
+  text-align: center;
+  color: white;
+  background-color: rgba(26, 24, 24, 0.938);
+}
+.pastEvents{
+  text-align: center;
+  color: white;
+  
+}
+footer{
+  background-color: black;
+  height: 150px;
+  position: relative;
+  top: 27%;
+  text-align: center;
+  color: white;
+  font-size: 0.8rem;
+  margin-top: 20%;
+}
+.footer_img{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: relative;
+  top: 10%;
+}
+.AchievementsHeading{
+  text-align: center;
+  font-family: 'Black Ops One', cursive;
+  color: orange;
+  margin-bottom: 5%;
+}
+.AchievementsContent{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  width: 50%;
+  position: relative;
+  left: 23%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15%;
+  text-align: center;
+}
+.Achievements{
+   margin-bottom: 20%;
+}
+@media (max-width: 800px) {
+  .flex-container2{
+      flex-direction: column;
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+  .what_img2{
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+        position: relative;
+        left: 0;
+    }
+    .what_img3{
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      position: relative;
+      right: 0; 
+    }
+    .achievement_image{
+      height: auto;
+    }
+    .achievement{
+      height: 100vh;
+      margin-top: 20vh;
+      position: relative;
+      top: 40%;
+    }
+    .currentEvent{
+      width: 80%;
+      position: relative;
+      left: 10%;
+      right: 10%;
+     height: 16.25%;
+    }
+    .AchievementsContent{
+      width: 80%;
+      position: relative;
+      left: 10%;
+      right: 10%;
+    }
+}
